@@ -10,9 +10,10 @@ spec:
       labels:
         app: fluentd
     spec:
+      serviceAccountName: fluentdd
       containers:
       - name: fluentd
-        image: sugare/fluentd-elasticsearch:1.20
+        image: 10.28.38.86:30010/fluentd-elasticsearch:1.20
         command:
           - '/bin/sh'
           - '-c'

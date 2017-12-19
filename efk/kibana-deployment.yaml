@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: kibana
-        image: sugare/kibana:5
+        image: 10.28.38.86:30010/kibana:5
         ports:
         - containerPort: 5601
         env:
